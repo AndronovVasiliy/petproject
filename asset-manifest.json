@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/petproject/static/css/main.09406dd6.css",
-    "main.js": "/petproject/static/js/main.626b243e.js",
+    "main.js": "/petproject/static/js/main.7102edd9.js",
     "static/js/787.8372de8c.chunk.js": "/petproject/static/js/787.8372de8c.chunk.js",
     "static/media/BackgroundColor.jpg": "/petproject/static/media/BackgroundColor.c4a0011a77ba5ad36f26.jpg",
     "static/media/question.jpg": "/petproject/static/media/question.9f1bfd9f3b54064f61fe.jpg",
     "index.html": "/petproject/index.html",
     "main.09406dd6.css.map": "/petproject/static/css/main.09406dd6.css.map",
-    "main.626b243e.js.map": "/petproject/static/js/main.626b243e.js.map",
+    "main.7102edd9.js.map": "/petproject/static/js/main.7102edd9.js.map",
     "787.8372de8c.chunk.js.map": "/petproject/static/js/787.8372de8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.09406dd6.css",
-    "static/js/main.626b243e.js"
+    "static/js/main.7102edd9.js"
   ]
 }
