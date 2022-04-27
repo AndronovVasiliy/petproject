@@ -1,0 +1,64 @@
+.numbers {
+    display: flex;
+    background-image: url('./BackgroundColor.jpg');
+    color: white;
+    flex-grow: 1;
+    width: 100%;
+    flex-direction: column;
+    background-size: cover;
+}
+
+.paragraphNumber{
+    text-align: center;
+}
+
+.date {
+    background-color: #171745;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.factAboutNumber {
+    background-color: #171745;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.inputNumber {
+    max-width: 110px;
+    height: 40px;
+    font-size: 40px;
+}
+
+.inputButton {
+    display: block;
+    width: 100%
+}
+
+.formNumber {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    background-color: #171745;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+}
+
+@media (max-width: 600px) {
+    #sidebar {display: none;}
+  }
