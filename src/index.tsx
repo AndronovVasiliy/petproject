@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import { setupStore } from './store/store';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -14,15 +14,13 @@ const root = ReactDOM.createRoot(
 const store = setupStore()
 
 root.render(
-
-
+  <HashRouter >
   <React.StrictMode>
-    <BrowserRouter>
       <Provider store={store}>
         <App />
       </Provider>
-    </BrowserRouter>
   </React.StrictMode>
+  </HashRouter>
 
 );
 
