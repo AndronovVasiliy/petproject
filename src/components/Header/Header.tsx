@@ -9,6 +9,7 @@ const Header = () => {
       <DropdownButton id="dropdown-basic-button" title="Разделы">
         <Dropdown.Item as={Link} to='/numbers'>O числах</Dropdown.Item>
         <Dropdown.Item as={Link} to='/yesorno'>Да или нет</Dropdown.Item>
+        <Dropdown.Item as={Link} to='/moleInHole'>MoleInHole</Dropdown.Item>
       </DropdownButton>
     </div>
   )

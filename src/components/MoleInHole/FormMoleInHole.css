@@ -1,0 +1,46 @@
+.formMoleInHole {
+    display: grid;
+    grid-template-columns: auto 100px 100px 100px auto;
+    grid-template-rows: 100px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.buttonFormMoleInHole {
+    display: grid;
+    align-items: start;
+    justify-items: center;
+    width: 100px;
+    height: 100px;
+    background-image: url('./img/mole.jpg');
+    font-weight: bold;
+}
+.speedSelection {
+    display: grid;
+}
+
+.sizedSelection {
+    display: grid;
+}
+
+.labelFormMoleInHole {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.missMoleInHole {
+    color: red;
+    font-size: 48px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.hitMoleInHole {
+    color: green;
+    font-size: 48px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}

@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerMoleInHole9 {
+    display: grid;
+    width: 100%;
+    height: 100vw;
+    max-width: 600px;
+    max-height: 600px;
+    gap: 5px;
+    padding: 5px;
+    grid-template-areas:
+        'i1 i2 i3'
+        'i4 i5 i6'
+        'i7 i8 i9';
+    align-items: center;
+}
+
+.containerMoleInHole16 {
+    display: grid;
+    position: relative;
+    width: 100%;
+    height: 100vw;
+    max-width: 600px;
+    max-height: 600px;
+    gap: 5px;
+    padding: 5px;
+    grid-template-areas:
+        'i1 i2 i3 i4'
+        'i5 i6 i7 i8'
+        'i9 i10 i11 i12'
+        'i13 i14 i15 i16';
+    align-items: center;
+}
+
+.containerMoleInHole25 {
+    display: grid;
+    width: 100%;
+    height: 100vw;
+    max-width: 600px;
+    max-height: 600px;
+    gap: 5px;
+    padding: 5px;
+    grid-template-areas:
+        'i1 i2 i3 i4 i5'
+        'i6 i7 i8 i9 i10'
+        'i11 i12 i13 i14 i15'
+        'i16 i17 i18 i19 i20'
+        'i21 i22 i23 i24 i25';
+    align-items: center;
+}
+
+.styleFildPart {
+    background-color: 'red';
+    width: '100%';
+    height: '100%';
+    border-Radius: '100%';
+}
+
+.moleImg {
+    width: 100px;
+    height: 100px;
+    background-image: url('./img/mole.jpg');
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    column-gap: 20px;
+}
+
+.moleInHole {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+}
