@@ -9,12 +9,13 @@
 
 .buttonFormMoleInHole {
     display: grid;
-    align-items: start;
+    align-items: center;
     justify-items: center;
     width: 90px;
     height: 100px;
     background-image: url('./img/mole.jpg');
-    font-weight: bold;
+    background-position: center center;
+    font-size: 42;
 }
 .speedSelection {
     display: grid;

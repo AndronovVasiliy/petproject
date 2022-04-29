@@ -53,24 +53,6 @@
     align-items: center;
 }
 
-.styleFildPart {
-    background-color: 'red';
-    width: '100%';
-    height: '100%';
-    border-Radius: '100%';
-    background-size: cover;
-}
-
-.styleFildPartWithMole {
-    background-color: 'red';
-    width: '100%';
-    height: '100%';
-    border-Radius: '100%';
-    background-size: cover;
-    background-image: url('./img/mole.png');
-}
-
-
 .buttons {
     display: grid;
     grid-template-columns: 100px 100px;

@@ -32,7 +32,6 @@ const FormMoleInHole = (props: PropsType) => {
 
     const { register, handleSubmit } = useForm<IFormInput>();
     const onSubmit: SubmitHandler<IFormInput> = (data) => {
-        console.log(+data.speed);
         props.size(+data.size)
         props.speed(+data.speed)
         props.start(true)
@@ -52,7 +51,7 @@ const FormMoleInHole = (props: PropsType) => {
                 </select>
             </div>
             <div >
-                <button className='buttonFormMoleInHole' value='Начать' type="submit" >Начать</button>
+                <button className='buttonFormMoleInHole' type="submit" />
             </div>
             <div className='sizedSelection'>
                 <label className='labelFormMoleInHole'>Скорость</label>

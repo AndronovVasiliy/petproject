@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import './MoleInHole.css'
-import './img/mole.png'
 import FormMoleInHole from './FormMoleInHole'
 import ModalMoleInHole from './ModalMoleInHole'
 
@@ -30,7 +29,7 @@ const MoleInHole = () => {
 
   useEffect(() => {
 
-    if (hit >= 10 || miss >= 3) {
+    if (hit >= 10 || miss >= 5) {
       setstartStop(false)
     }
     const interval = setInterval(() => {
@@ -42,8 +41,7 @@ const MoleInHole = () => {
 
     return () => {
       clearTimeout(interval)
-    }
-  }, [startStop, speed, numberFields, hit, miss])
+    }}, [startStop, speed, numberFields, hit, miss])
 
   let arrs = []
 
