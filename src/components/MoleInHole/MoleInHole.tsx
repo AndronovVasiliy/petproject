@@ -53,9 +53,7 @@ const MoleInHole = () => {
 
   const onClick = (e: any) => {
     +e.target.id === 1 ? setHit(prev => prev + 1) : setMiss(prev => prev + 1)
-    // e.currentTarget.style = `${{...styleFildPart}}`
     e.currentTarget.style.backgroundImage = ""
-    // e.currentTarget.style.backgroundColor = 'salmon';
   }
 
   return (
