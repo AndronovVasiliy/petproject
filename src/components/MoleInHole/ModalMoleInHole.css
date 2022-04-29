@@ -1,5 +1,4 @@
-.modalMoleInHole {
-    
+.modalMoleInHole {    
     display: grid;
     width: 100%;
     height: 100%;
@@ -9,6 +8,13 @@
     align-items: center;
 }
 
-.h1ModalMoleInHole {
+.h1lossModalMoleInHole {
     color: red;
+    background-color: white;
+    border-radius: 15px;
+}
+.h1winModalMoleInHole {
+    color: green;
+    background-color: white;
+    border-radius: 15px;
 }

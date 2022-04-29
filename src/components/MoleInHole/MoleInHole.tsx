@@ -11,12 +11,12 @@ let styleFildPart = {
   width: '100%',
   height: '100%',
   borderRadius: '100%',
-  backgroundSize: 'cover'
+  backgroundSize: 'cover',
+  backgroundPosition: 'center'
 }
 
 let mole = {
-  backgroundImage: "url(" + `${url}` + ")",
-  backgroundPosition: 'center'
+  backgroundImage: "url(" + `${url}` + ")"  
 }
 
 const MoleInHole = () => {
@@ -30,11 +30,11 @@ const MoleInHole = () => {
 
   useEffect(() => {
 
-    if(hit >= 10 || miss >= 3) {
+    if (hit >= 10 || miss >= 3) {
       setstartStop(false)
     }
     const interval = setInterval(() => {
-      if (startStop && hit < 10 && miss <= 3) {
+      if (startStop && hit < 10 && miss <= 5) {
         let show = Math.floor(Math.random() * numberFields)
         setShow(show)
       }
@@ -51,15 +51,18 @@ const MoleInHole = () => {
     arrs.push(i)
   }
 
-  const onClick = (e: any) => +e.target.id === 1 ? setHit(prev => prev + 1) : setMiss(prev => prev + 1)
+  const onClick = (e: any) => {
+    +e.target.id === 1 ? setHit(prev => prev + 1) : setMiss(prev => prev + 1)
+    // e.currentTarget.style = `${{...styleFildPart}}`
+    e.currentTarget.style.backgroundImage = ""
+    // e.currentTarget.style.backgroundColor = 'salmon';
+  }
 
   return (
     <div className='moleInHole'>
-      <FormMoleInHole start={setstartStop} size={setnumberFields} speed={setSspeed} hit = {hit} miss = {miss} setHit ={setHit} setMiss = {setMiss}/>
-      <div className='buttons'>
-      </div>
+      <FormMoleInHole start={setstartStop} size={setnumberFields} speed={setSspeed} hit={hit} miss={miss} setHit={setHit} setMiss={setMiss} />
       <div className={`containerMoleInHole${numberFields}`}>
-        {(hit >= 10 || miss >= 3) && <ModalMoleInHole title={miss >= 3 ? "Проиграл" : "Победил"} />}
+        {(hit >= 10 || miss >= 5) && <ModalMoleInHole title={miss >= 5 ? false : true} />}
         {arrs.map(i => show === i ?
           <div key={i} id='1' onClick={(e) => onClick(e)} style={{ gridArea: `i${i}`, ...styleFildPart, ...mole }}></div>
           :

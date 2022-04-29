@@ -58,13 +58,18 @@
     width: '100%';
     height: '100%';
     border-Radius: '100%';
+    background-size: cover;
 }
 
-.moleImg {
-    width: 100px;
-    height: 100px;
-    background-image: url('./img/mole.jpg');
+.styleFildPartWithMole {
+    background-color: 'red';
+    width: '100%';
+    height: '100%';
+    border-Radius: '100%';
+    background-size: cover;
+    background-image: url('./img/mole.png');
 }
+
 
 .buttons {
     display: grid;

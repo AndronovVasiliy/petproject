@@ -46,9 +46,9 @@ const FormMoleInHole = (props: PropsType) => {
             <div className='speedSelection'>
                 <label className='labelFormMoleInHole'>Размер</label>
                 <select defaultValue={"16"} {...register("size")} >
-                    <option value="9">3 х 3</option>
-                    <option value="16">4 х 4</option>
-                    <option value="25">5 х 5</option>
+                    <option value="9">3х3</option>
+                    <option value="16">4х4</option>
+                    <option value="25">5х5</option>
                 </select>
             </div>
             <div >
@@ -57,9 +57,9 @@ const FormMoleInHole = (props: PropsType) => {
             <div className='sizedSelection'>
                 <label className='labelFormMoleInHole'>Скорость</label>
                 <select defaultValue={"700"} {...register("speed")} >
-                    <option value="500">Быстро</option>
-                    <option value="700">Средне</option>
-                    <option value="1000">Медленно</option>
+                    <option value="500">0.5c</option>
+                    <option value="700">0.7c</option>
+                    <option value="1000">1c</option>
                 </select>
             </div>
             <div className='hitMoleInHole'>{props.hit}</div>

@@ -1,13 +1,18 @@
 import './ModalMoleInHole.css'
 
 interface PropsType {
-    title: string
+    title: boolean
 }
 
 const ModalMoleInHole = (props: PropsType) => {
     return (
         <div className="modalMoleInHole">
-            <h1 className='h1ModalMoleInHole'>{props.title}</h1>
+
+            { props.title ?
+            <h1 className={`h1winModalMoleInHole`}>Выйграл</h1>
+            :
+            <h1 className={`h1lossModalMoleInHole`}>Проиграл</h1>
+            }
         </div>
     );
 }
