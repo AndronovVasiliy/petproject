@@ -4,7 +4,7 @@ import { yesOrNoReduser } from "./reducers/yesOrNoReducer";
 
 const rootReducer = combineReducers({
     date: numbersReducers.reducer,
-    yesorno: yesOrNoReduser.reducer
+    yesorno: yesOrNoReduser.reducer,
 })
 
 
