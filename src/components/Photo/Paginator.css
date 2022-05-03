@@ -1,0 +1,23 @@
+.pagination {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(12, 30px);
+}
+
+.paginatorNumbers {
+    display: grid;
+    height: 30px;
+    justify-items: center;
+    align-items: center;
+}
+
+.paginationActive {
+    display: grid;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    max-height: 30px;
+    justify-items: center;
+    align-items: center;
+}

@@ -1,0 +1,4 @@
+.searchPhotoForm {
+    display: flex;
+    flex-direction: row;
+}

@@ -27,6 +27,7 @@ const Header = () => {
               <Dropdown.Item onClick={() => handleClose()} as={Link} to='/yesorno'>Да или нет</Dropdown.Item>
               <Dropdown.Item onClick={() => handleClose()} as={Link} to='/moleInHole'>MoleInHole</Dropdown.Item>
               <Dropdown.Item onClick={() => handleClose()} as={Link} to='/calculator'>Калькулятор</Dropdown.Item>
+              <Dropdown.Item onClick={() => handleClose()} as={Link} to='/photos'>Фото</Dropdown.Item>
             </Offcanvas.Body>
           </Offcanvas>
         </>
@@ -43,6 +44,9 @@ const Header = () => {
           </Nav.Item>
           <Nav.Item>
             <Nav.Link as={NavLink} to='/calculator'>Калькулятор</Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link as={NavLink} to='/photos'>Фото</Nav.Link>
           </Nav.Item>
         </Nav>
       }

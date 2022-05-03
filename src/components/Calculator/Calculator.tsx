@@ -22,7 +22,6 @@ export const Calculator = () => {
           break;
       }
     }
-
   }
 
   return (
