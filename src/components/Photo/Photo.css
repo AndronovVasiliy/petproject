@@ -12,6 +12,7 @@
     height: 100%; 
     display: block;
     box-sizing: border-box;
+    max-height: 520px;
 }
 
 .mainPhoto {
