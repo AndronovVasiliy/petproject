@@ -3,8 +3,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 30px 1fr 1fr auto;
     width: 100%;
-    justify-items: center;
-    
+    justify-items: center;    
 }
 
 .imgphoto {
